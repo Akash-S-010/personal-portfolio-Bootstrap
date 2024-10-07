@@ -32,12 +32,6 @@ nav-item .nav-bttn {
     width: 420px;
 }
 
-.about {
-    height: 100vh;
-    width: 100%;
-    background-color: linear-gradient(305deg, rgba(253,227,255,1) 0%, rgba(254,255,231,1) 100%);
-}
-
 .about-image img {
     width: 350px;
 }
@@ -55,21 +49,17 @@ nav-item .nav-bttn {
     max-width: 600px;
 }
 
-.lists b{
-    font-weight: 600;
-    color:rgba(52, 52, 53, 0.892) ;
-    font-size: 17px;
-}
-.items span{
+.items span {
     margin: 0 3px;
     font-weight: 400;
     font-size: 14px;
-    color:rgba(52, 52, 53, 0.726) ;
+    color: rgba(52, 52, 53, 0.726);
 }
+
 .lists {
     list-style: none;
-    position: relative; 
-    padding-left: 25px; 
+    position: relative;
+    padding-left: 25px;
 }
 
 .lists::before {
@@ -80,29 +70,82 @@ nav-item .nav-bttn {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: white; 
-    border: 2px solid red; 
-    z-index: 1; 
+    background-color: white;
+    border: 2px solid red;
+    z-index: 1;
 }
 
 .lists::after {
     content: '';
     position: absolute;
-    left: 4px; 
-    top: 10px; 
-    bottom: -26px; 
+    left: 4px;
+    top: 10px;
+    bottom: -26px;
     width: 2px;
-    background-color: rgb(191, 189, 189); 
-    z-index: 0; 
+    background-color: rgb(191, 189, 189);
+    z-index: 0;
 }
 
 .lists:last-child::after {
     content: none;
 }
+
 .social-links i {
     font-size: 14px;
     padding: 8px 10px;
     border-radius: 30px;
     margin: 0 8px;
     cursor: pointer;
+    background-color: rgb(255, 192, 19);
+    transition: .2S;
+}
+
+.social-links i:hover {
+    color: rgb(255, 192, 19);
+    background-color: black;
+}
+
+.section-head {
+    position: relative;
+    background-color: red;
+    background: linear-gradient(305deg, rgba(247, 192, 7, 1) 35%, rgba(245, 4, 4, 1) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-head::after{
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 3px;
+    background-color: red;
+}
+.section-para{
+    color:rgba(52, 52, 53, 0.726);
+}
+.service-icon{
+    width: 50px;
+    height: 50px;
+    color: red;
+    border-radius: 100%;
+    border: 2px solid grey;
+}
+.skill-h3{
+    color: rgba(40, 40, 41, 0.726);
+}
+.progress-container{
+    height: 25px;
+    width:90%;
+    padding: 2px;
+    border-radius: 80px;
+    background-color: white;
+    border: 2px solid rgb(219,5,5);
+    
+}
+.progress-bar{
+    background-color: rgb(219,5,5);
+    color: white;
+    border-radius: 50px;
 }

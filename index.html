@@ -19,7 +19,7 @@
 
 <body>
 
-    <div class="header border-bottom border-subtle">
+    <div id="header" class=" header border-bottom border-subtle">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg py-4">
                 <div class="container">
@@ -31,15 +31,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto align-items-center">
                             <li class="nav-item mx-3">
-                                <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active fw-semibold" aria-current="page" href="#header">Home</a>
                             </li>
 
                             <li class="nav-item mx-3">
-                                <a class="nav-link fw-semibold " aria-current="page" href="#">About</a>
+                                <a class="nav-link fw-semibold " aria-current="page" href="#about">About</a>
                             </li>
 
                             <li class="nav-item mx-3">
-                                <a class="nav-link fw-semibold " aria-current="page" href="#">Services</a>
+                                <a class="nav-link fw-semibold " aria-current="page" href="#services">Services</a>
+                            </li>
+
+                            <li class="nav-item mx-3">
+                                <a class="nav-link fw-semibold " aria-current="page" href="#skill">Skill</a>
                             </li>
 
                             <li class="nav-item mx-3">
@@ -76,7 +80,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 mt-5">
                     <img class="hero-img" src="images/akash.png" alt="">
                 </div>
             </div>
@@ -85,11 +89,11 @@
 
 
     <!-----------About-Section------------------------ -->
-    <section class="about d-flex justify-content-center align-items-center">
+    <section id="about" class="about d-flex justify-content-center align-items-center py-5">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-6">
-                    <div class="about-image ps-5">
+                    <div class="about-image ps-5 my-5">
                         <img src="/images/imga-md.jpg" alt="">
                     </div>
                 </div>
@@ -99,23 +103,198 @@
                         <p class="text-danger fw-semibold mb-4">Web Developer / Grphic Designer</p>
                         <p class="about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nulla minima voluptas dignissimos nemo perspiciatis accusantium asperiores fugit nihil id.</p>
                         <ul class="mt-4 list-container">
-                            <li class="lists my-4 "><b>From : </b> <span>India</span></li>
-                            <li class="lists my-4 "><b>Lives : </b> <span>Mahe, Puducherry</span></li>
-                            <li class="lists my-4 "><b>Address : </b> <span>Palloor, Mahe</span></li>
+                            <li class="lists my-4 "><b>Place : </b> <span>Mahe, Puducherry</span></li>
                             <li class="lists my-4 "><b>Gender : </b> <span>Male</span></li>
                             <li class="lists my-4 "><b>Age : </b> <span>22</span></li>
+                            <li class="lists my-4 "><b>Qualification : </b> <span>B A. Economics Graduate</span></li>
                         </ul>
                         <div class="social-links mt-5">
-                            <i class="fa-brands bg-warning fa-facebook-f"></i>
-                            <i class="fa-brands bg-warning fa-google"></i>
-                            <i class="fa-brands bg-warning fa-linkedin-in"></i>
-                            <i class="fa-brands bg-warning fa-instagram"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-instagram"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+    </section>
+    
+    <!-----------------Sevice & Skill Section------------------------- -->
+    <section id="services" class="services pt-5">
+        <h1 class=" section-head mb-4 text-center fw-bold fs-1">SERVICES</h1>
+        <p class="text-center fw-semibold section-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id assumenda officia ratione possimus beatae sed?</p>
+
+       <div class="container mt-5">
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <div class="card-body">
+                        <i class="fa-solid fa-code display-1 text-danger"></i>
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">
+                            Web development is a blend of creativity and technology,
+                            transforming ideas into interactive experiences that connect and
+                            engage users globally.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <i class="fa-solid fa-compass-drafting display-1 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Designing</h5>
+                        <p class="card-text">
+                            Creating visually stunning, user-friendly websites tailored to
+                            your needs. Professional design, seamless functionality, and
+                            exceptional user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <i class="fa-solid fa-pen-nib display-1 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Designing</h5>
+                        <p class="card-text">
+                            Great design is a silent ambassador for your brand, transforming
+                            ideas into impactful visuals that resonate and inspire action
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <i class="fa-solid fa-pen display-1 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Data Entry</h5>
+                        <p class="card-text">
+                            Accurate data entry is the foundation of insightful analysis,
+                            ensuring informed decisions and driving business success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <i class="fa-solid fa-hashtag display-1 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media Marketing</h5>
+                        <p class="card-text">
+                            Engage your audience with authentic content, foster community,
+                            and drive growth through strategic social media marketing
+                            efforts
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center p-3 shadow p-3 mb-5 bg-body rounded" style="height: 18em">
+                    <i class="fa-solid fa-magnifying-glass display-1 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Search Engine Marketin</h5>
+                        <p class="card-text">
+                            Search Engine Marketing: Your gateway to targeted audiences.
+                            Harness keywords, ads, and analytics for effective online
+                            visibility and conversions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+    </section>
+
+    <section id="skill" class="skill-section my-5">
+        <h1 class=" section-head mb-4 text-center fw-bold fs-1">My SKILL</h1>
+        <p class="text-center fw-semibold section-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id assumenda officia ratione possimus beatae sed?</p>
+
+        <div class="container">
+            <div class="row ms-auto">
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="skill-h3 mb-4 mt-5">Coding Skills</h4>
+                    <div class="skill-content">
+                        <h6 class="mt-4">HTML</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 90%">90%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">CSS</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 60%">60%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">Bootstrap</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">80%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">JavaScript</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 40%">40%</div>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="skill-h3 mb-4 mt-5">Designing Skill</h4>
+                    <div class="skill-content">
+                        <h6 class="mt-4">Photoshop</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">80%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">Illustrator</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 60%">60%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">Figma</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">50%</div>
+                          </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="skill-h3 mb-4 mt-5">Other Skill</h4>
+                    <div class="skill-content">
+                        <h6 class="mt-4">SEO</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">50%</div>
+                          </div>
+                    </div>
+
+                    <div class="skill-content">
+                        <h6 class="mt-4">Social Media Management</h6>
+                        <div class="progress progress-container" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">80%</div>
+                          </div>
+                    </div>                   
+                </div>
+                      
+            </div>
+        </div>
     </section>
 
 
