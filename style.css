@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    height: 80vh;
+}
+nav-item .nav-bttn{
+    display: inline-block;
+}
+.text-grey{
+    color: rgba(52,52,53,0.61);
+}
+.Name-head{
+    font-size: 84px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.hero-img{
+    width: 420px;
+}
+.social-links i{
+    font-size: 17px;
+    padding: 12px 14px;
+    border-radius: 30px;
+    margin: 0 4px;
+    cursor: pointer;
+}
