@@ -1,33 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", system-ui;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.hero{
-    height: 80vh;
+
+.hero {
+    height: 87vh;
+    background: linear-gradient(305deg, rgba(254, 242, 255, 1) 0%, rgba(255, 231, 231, 1) 100%);
 }
-nav-item .nav-bttn{
+
+nav-item .nav-bttn {
     display: inline-block;
 }
-.text-grey{
-    color: rgba(52,52,53,0.61);
+
+.text-grey {
+    color: rgba(52, 52, 53, 0.61);
 }
-.Name-head{
+
+.Name-head {
     font-size: 84px;
     font-weight: 800;
     letter-spacing: 1px;
 }
-.hero-img{
+
+.hero-img {
     width: 420px;
 }
-.social-links i{
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: linear-gradient(305deg, rgba(253,227,255,1) 0%, rgba(254,255,231,1) 100%);
+}
+
+.about-image img {
+    width: 350px;
+}
+
+.about-head {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.about-para {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(52, 52, 53, 0.61);
+    line-height: 28px;
+    max-width: 600px;
+}
+
+.lists b{
+    font-weight: 600;
+    color:rgba(52, 52, 53, 0.892) ;
     font-size: 17px;
-    padding: 12px 14px;
+}
+.items span{
+    margin: 0 3px;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(52, 52, 53, 0.726) ;
+}
+.lists {
+    list-style: none;
+    position: relative; 
+    padding-left: 25px; 
+}
+
+.lists::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white; 
+    border: 2px solid red; 
+    z-index: 1; 
+}
+
+.lists::after {
+    content: '';
+    position: absolute;
+    left: 4px; 
+    top: 10px; 
+    bottom: -26px; 
+    width: 2px;
+    background-color: rgb(191, 189, 189); 
+    z-index: 0; 
+}
+
+.lists:last-child::after {
+    content: none;
+}
+.social-links i {
+    font-size: 14px;
+    padding: 8px 10px;
     border-radius: 30px;
-    margin: 0 4px;
+    margin: 0 8px;
     cursor: pointer;
 }
