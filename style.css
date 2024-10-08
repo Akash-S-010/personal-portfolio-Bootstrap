@@ -10,7 +10,8 @@ a {
 }
 
 .hero {
-    margin: 5% 0;
+    margin-top: 5%;
+    padding-bottom: 5%;
     background:rgb(254, 248, 248);
 }
 
@@ -169,9 +170,14 @@ nav-item .nav-bttn {
     top: 45%;background-color: red;
     border-radius: 100%;
 }
+.footer{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    background-color:rgb(191, 189, 189) ;
+}
 .footer-text{
     font-size: 13px;
-    background-color:rgb(191, 189, 189) ;
 }
 
 @media (width < 767px){
