@@ -10,8 +10,8 @@ a {
 }
 
 .hero {
-    height: 87vh;
-    background: linear-gradient(305deg, rgba(254, 242, 255, 1) 0%, rgba(255, 231, 231, 1) 100%);
+    margin: 5% 0;
+    background:rgb(254, 248, 248);
 }
 
 nav-item .nav-bttn {
@@ -30,6 +30,9 @@ nav-item .nav-bttn {
 
 .hero-img {
     width: 420px;
+}
+#about{
+    background-color: rgb(254, 248, 248);
 }
 
 .about-image img {
@@ -125,12 +128,18 @@ nav-item .nav-bttn {
 .section-para{
     color:rgba(52, 52, 53, 0.726);
 }
+#services{
+    background-color: rgb(254, 248, 248);
+}
 .service-icon{
     width: 50px;
     height: 50px;
     color: red;
     border-radius: 100%;
     border: 2px solid grey;
+}
+#skill{
+    background-color: rgb(254, 248, 248);
 }
 .skill-h3{
     color: rgba(40, 40, 41, 0.726);
@@ -148,4 +157,28 @@ nav-item .nav-bttn {
     background-color: rgb(219,5,5);
     color: white;
     border-radius: 50px;
+}
+#projects{
+    background-color: rgb(254, 248, 248);
+}
+.arrow{
+    margin:0 20px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45%;background-color: red;
+    border-radius: 100%;
+}
+.footer-text{
+    font-size: 13px;
+    background-color:rgb(191, 189, 189) ;
+}
+
+@media (width < 767px){
+    .about-image img {
+        display: none;
+    }
+    .Name-head {
+        font-size: 64px;
+    }
 }
