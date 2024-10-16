@@ -37,6 +37,9 @@ nav-item .nav-bttn {
 }
 
 .about-image img {
+    padding: 12px 12px 0;
+    border-radius: 30px;
+    border:6px solid rgb(228, 183, 168);
     width: 350px;
 }
 
@@ -51,6 +54,10 @@ nav-item .nav-bttn {
     color: rgba(52, 52, 53, 0.61);
     line-height: 28px;
     max-width: 600px;
+}
+.card:hover{
+    transition: .3s;
+    transform: scale(1.02);
 }
 
 .items span {
