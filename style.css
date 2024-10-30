@@ -197,6 +197,8 @@ nav-item .nav-bttn {
 @media (width < 767px){
     .about-image img {
         display: none;
+    }.hero-img {
+        width: 315px;
     }
     .Name-head {
         font-size: 64px;
