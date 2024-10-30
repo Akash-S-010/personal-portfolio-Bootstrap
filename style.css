@@ -169,6 +169,13 @@ nav-item .nav-bttn {
 #projects{
     background-color: rgb(254, 248, 248);
 }
+#contact input{
+    border: 2px solid rgb(192, 191, 191);
+}
+#contact textarea{
+    border: 2px solid rgb(192, 191, 191);
+
+}
 .arrow{
     margin:0 20px;
     width: 35px;
