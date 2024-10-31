@@ -10,9 +10,9 @@ a {
 }
 
 .hero {
-    margin-top: 5%;
+    padding-top: 7%;
     padding-bottom: 5%;
-    background:rgb(254, 248, 248);
+    background:rgb(248, 208, 208);
 }
 
 nav-item .nav-bttn {
@@ -197,10 +197,21 @@ nav-item .nav-bttn {
 @media (width < 767px){
     .about-image img {
         display: none;
-    }.hero-img {
-        width: 315px;
+    }
+    .hero-img {
+        width: 350px;
+        padding-left: 30px;
     }
     .Name-head {
         font-size: 64px;
+    }
+}
+@media (width < 1000px){
+    .hero-img {
+        padding-left: 12%;
+        width: 620px;
+    }
+    .about-image img {
+        display: none;
     }
 }
