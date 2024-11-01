@@ -11,8 +11,8 @@ a {
 
 .hero {
     padding-top: 7%;
+    background-color: rgb(254, 248, 248);
     padding-bottom: 5%;
-    background:rgb(248, 208, 208);
 }
 
 nav-item .nav-bttn {
