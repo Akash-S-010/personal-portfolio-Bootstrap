@@ -208,8 +208,7 @@ nav-item .nav-bttn {
 }
 @media (width < 1000px){
     .hero-img {
-        padding-left: 12%;
-        width: 620px;
+        width: 320px;
     }
     .about-image img {
         display: none;
